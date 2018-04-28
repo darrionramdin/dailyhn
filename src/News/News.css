@@ -1,0 +1,11 @@
+.News-header {
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 300;
+    opacity: 0.5;
+}
+
+.News-header span {
+    color: #FF4D4D;
+    font-weight: 700;
+}

@@ -1,0 +1,46 @@
+.TopNav {
+    grid-column: span 2;
+    display: flex;
+    flex-direction: row;
+    padding: 30px 0;
+}
+
+.TopNav-logo {
+    flex-basis: 20%;
+    font-size: 24px;
+    font-weight: 300;   
+}
+
+.TopNav-logo-text {
+    display: inline-block;
+    padding: 5px;
+    background: #FF4D4D;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    animation: LogoZoomIn 1.2s;
+}
+
+.TopNav-logo-text:hover {
+    transform: scale(1.1);
+}
+
+
+.TopNav-logo-text span {
+    font-weight: 700; 
+}
+
+@keyframes LogoZoomIn {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.5)
+    }
+
+    100% {
+        transform: scale(1)
+    }
+}

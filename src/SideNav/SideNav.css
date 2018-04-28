@@ -1,0 +1,27 @@
+.SideNav-nav {
+    padding: 15px 0;
+}
+
+.SideNav-nav-item {
+    margin: 10px 0;
+    font-weight: 300;
+    opacity: 0.8;
+    transition: color 0.3s ease-in-out;
+}
+
+.SideNav-nav-item:hover {
+    cursor: pointer;
+    color: #FF4D4D;
+}
+
+
+.SideNav-header {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 300;
+    opacity: 0.5;
+}
+
+.active {
+    color: red;
+}
